@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>   // biblioteca necessária para pow()
+
+int main() {
+    int numero, resultado;
+
+    // Entrada de dados
+    printf("Digite um numero: ");
+    scanf("%i", &numero);
+
+    // Processamento (elevar ao quadrado)
+    resultado = pow(numero, 2);   // ou resultado = numero * numero;
+
+    // Saída
+    printf("O numero digitado foi: %.2i\n", numero);
+    printf("O quadrado desse numero é: %.2i\n", resultado);
+
+ return 0;
+}

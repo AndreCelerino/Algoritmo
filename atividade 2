@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int numA, numB, media;
+
+    // Solicita os dois números ao usuário
+    printf("Digite o primeiro número: ");
+    scanf("%i", &numA);
+
+    printf("Digite o segundo número: ");
+    scanf("%i", &numB);
+
+    // Calcula a média
+    media = (numA + numB) / 2;
+
+    // Exibe o resultado com uma casa decimal
+    printf("A média entre %.1i e %.1i é %.1i.\n", numA, numB, media);
+
+    return 0;
+}   

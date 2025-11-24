@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int numero;     // pode ser inteiro
+    int antecessor, sucessor;
+
+    // Entrada de dados
+    printf("Digite um numero: ");
+    scanf("%i", &numero);
+
+    // processo do codigo 
+    antecessor = numero - 1;
+    sucessor   = numero + 1;
+
+    // Saída
+    printf("O numero digitado foi: %.2i\n", numero);
+    printf("O antecessor é: %.2i\n", antecessor);
+    printf("O sucessor é: %.2i\n", sucessor);
+
+return 0;
+}

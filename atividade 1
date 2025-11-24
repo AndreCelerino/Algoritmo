@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int numA, numB, numC, resultado;
+
+    // Solicita os três números ao usuário
+    printf("Digite o primeiro número inteiro: ");
+    scanf("%i", &numA);
+
+    printf("Digite o segundo número inteiro: ");
+    scanf("%i", &numB);
+
+    printf("Dgite o terceiro número inteiro: ");
+    scanf("%i", &numC);
+    
+    // adição 
+    resultado = numA + numB;
+    printf("%i + %i = %i\n", numA, numB, resultado);
+
+    // multiplicação 
+    resultado = numA * numB;
+    printf("%i * %i = %i\n", numA, numB, resultado);
+
+    //subtração
+    resultado = numC - numA;
+    printf("%i - %i = %i\n", numC, numA, resultado);
+    
+    return 0;
+}
